@@ -1,0 +1,33 @@
+body, html{
+  padding: 0;
+  margin: 0;
+  background-color: #FFA07A;
+}
+h1{
+  color: grey;
+text-align: center;
+font-size: 55px;
+text-decoration: underline;
+margin-bottom: 150px;
+}
+h2{
+  margin-bottom: 150px;
+}
+p{
+  text-align: center;
+  font-size:30px;
+
+}
+ul li{
+  display: inline-block;
+}
+li{
+  padding: 20px;
+}
+a{
+  color:grey;
+  font-size: 26px;
+}
+.img{
+  margin-top: 50px;
+}
