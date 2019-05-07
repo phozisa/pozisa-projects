@@ -1,33 +1,306 @@
-body, html{
-  padding: 0;
+body,html{
   margin: 0;
-  background-color: #FFA07A;
-}
-h1{
-  color: grey;
-text-align: center;
-font-size: 55px;
-text-decoration: underline;
-margin-bottom: 150px;
-}
-h2{
-  margin-bottom: 150px;
-}
-p{
-  text-align: center;
-  font-size:30px;
+  padding: 0;
 
 }
-ul li{
-  display: inline-block;
+.top-container ul{
+  display: flex;
 }
-li{
+.navbar .top-container ul li{
+  display: flex;
+  padding: 10px;
+}
+.tex-container a h1 {
+text-decoration: none;
+}
+.container {
+  background: linear-gradient(to bottom, rgba(60, 60, 60, 0.45), rgba(255, 255, 255, 0.45)), url(../images/bloom.jpg);
+  margin-top: -300px;
+  background-size: cover;
+  height: 598px;
+  width: 1000px;
+}
+.top-container ul li a{
+  text-decoration: none;
+}
+.align-container ul{
+  list-style: none;
+  display: flex;
+
+
+}
+
+.work {
+  max-width: 1200px;
+  margin: auto;
+}
+ h1{
+  justify-content: center;
+}
+.container .tex-content{
+
+}
+.tex-content {
+  position: absolute;
+  margin-top: 200px;
+}
+
+.linkbtn{
+  border: 1px solid black;
+  background-color: black;
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 13px;
+}
+section {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.standing-container img{
+  margin-right: 100px;
+}
+.second-section {
+  display: flex;
+
+}
+.cool p{
+  margin-left: -310px;
+}
+.cool h1{
+  margin-left: -310px;
+}
+.brass-container p{
+  margin-left: 90px;
+}
+.brass-container h1{
+  margin-left: 90px;
+}
+.brass-container img{
+  margin-left: 50px;
+}
+.modern-lamp img{
+  margin-top: -12px;
+}
+.cool img{
+  margin-left: -310px;
+}
+.blak-chair p{
+  margin-left: -230px;
+}
+.blak-chair h1{
+  margin-left: -230px;
+}
+.blak-chair img{
+  margin-top: -20px;
+  margin-left: -230px;
+}
+.table-container p{
+  margin-left: 99px;
+}
+.chair-container img{
+  margin-left: 20px;
+}
+.table-container h1{
+  margin-left: 99px;
+}
+.table-container img{
+  margin-left: 100px;
+}
+.container-1 div {
+  margin-left: 30px;
+}
+.container-2 div {
+  margin-left: 30px;
+}
+.container-1 {
+  display: flex;
+  margin: 30px;
+}
+.container-2 {
+  display: flex;
+}
+.tex-content{
+margin-top: 230px;
+margin-left: 40px;
+}
+.circle-container{
+  height: 20px;
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  left: 300px;
+}
+.circle-1{
+  height: 9px;
+  width: inherit;
+  background-color: black;
+  border-radius: 100%;
+  margin-top: 560px;
+  margin-left: 10px;
+
+}
+.circle-2{
+  height: 9px;
+  width: inherit;
+  background-color: grey;
+  border-radius: 100%;
+  margin-top: 560px;
+  margin-left: 10px;
+}
+.circle-3{
+  height: 9px;
+  width: inherit;
+  background-color: grey;
+  border-radius: 100%;
+  margin-top: 560px;
+  margin-left: 10px;
+}
+.container work{
+  margin-top: 10px;
+}
+
+.nav-container{
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  height: 300px;
+  background-color:#dcdcdc;
+}
+
+.lamp-container img{
+  background-color: #fafafa;
+}
+.nav-container p{
+  padding-top: 70px;
+  font-size: 15px;
+}
+.nav-container h2{
+  margin-left: 123px;
+  font-size: 10px;
+}
+
+/*
+.icon div ul{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.align-container{
+
+}
+.icon .align-container ul{
+   list-style: none;
+  margin-left: 10px;
+
+}
+.nav2 .tex-container ul{
+  list-style: none;
+  align-items: center;
+}
+.container .tex-content ul{
+
+}
+.container {
+  padding-left: 200px;
+}
+.container h1{
+  font-size: 40px;
+}
+*/
+.navbar {
+  display: flex;
+  justify-content: space-around;
   padding: 20px;
 }
-a{
-  color:grey;
-  font-size: 26px;
+.align-container ul li{
+  padding: 10px;
 }
-.img{
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
   margin-top: 50px;
+  height: 330px;
+  width: 1140px;
+  margin-left: 0px;
+  background-color: black;
+  color: white;
+  padding: 20px 70px;
+}
+.main2 img{
+  border-radius: 55px;
+}
+
+.new {
+  display: flex;
+}
+.text p{
+  margin-left: 90px;
+}
+.text h2{
+  font-size: 20px;
+  font-family: 'Sacramento', cursive;
+}
+.text {
+  text-align: center;
+}
+.text a{
+text-decoration: none;
+background-color: black;
+color: white;
+padding: 10px;
+}
+.poz, .poz2 {
+  display: flex;
+  align-items: center;
+}
+.MAISON{
+  text-align: center;
+}
+.main3{
+  text-align: center;
+}
+.post{
+  text-align: center;
+}
+.poz2 i,p{
+  margin-left: 50px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1025px;
+  background-color: black;
+  color: white;
+}
+
+.col-1, .col-2, .col-3, .col-4{
+  width: 33.33%;
+  margin: auto;
+  text-align: center;
+}
+
+.poz,
+.poz2 {
+  display: flex;
+}
+
+.col-2 {
+  margin-top: 70px;
+  margin-right: 20px;
+}
+
+.col-3 {
+  margin-top: 69px;
+}
+
+.col-4 {
+  margin-top: 70px;
 }
