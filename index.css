@@ -14,7 +14,7 @@ body,html{
 text-decoration: none;
 }
 .container {
-  background: linear-gradient(to bottom, rgba(60, 60, 60, 0.45), rgba(255, 255, 255, 0.45)), url(../images/bloom.jpg);
+  background-image: url(bloom.jpg);
   margin-top: -300px;
   background-size: cover;
   height: 598px;
