@@ -14,7 +14,7 @@ body,html{
 text-decoration: none;
 }
 .container {
-  background-image: url("bloom.jpg");
+  background: linear-gradient(to bottom, rgba(60, 60, 60, 0.45), rgba(255, 255, 255, 0.45)), url(../images/bloom.jpg);
   margin-top: -300px;
   background-size: cover;
   height: 598px;
@@ -260,6 +260,10 @@ padding: 10px;
   display: flex;
   align-items: center;
 }
+.poz i{
+  margin-top: -18px;
+  margin-right: -10px;
+}
 .MAISON{
   text-align: center;
 }
@@ -269,8 +273,16 @@ padding: 10px;
 .post{
   text-align: center;
 }
+/*
 .poz2 i,p{
-  margin-left: 50px;
+  margin-left: 0px;
+}
+*/
+.poz2{
+  margin-left: 34px;
+}
+.poz{
+  margin-left: 0px;
 }
 
 .footer-container {
@@ -287,15 +299,12 @@ padding: 10px;
   text-align: center;
 }
 
-.poz,
-.poz2 {
+/*
+.poz, .poz2{
   display: flex;
+align-items: center;
 }
-
-.col-2 {
-  margin-top: 70px;
-  margin-right: 20px;
-}
+*/
 
 .col-3 {
   margin-top: 69px;
